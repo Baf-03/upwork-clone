@@ -1,0 +1,653 @@
+body{
+	font-family: Arial;
+	font-size: 15px;
+
+}
+
+.upper-section{
+	background-color: white;
+	position: sticky;
+	top:0px;
+
+
+}
+.header{
+	width:100vm;
+	height: 60px;
+	border-bottom: 1px solid lightgray;
+	background-color: white;
+}
+.leftside{
+	float:left;
+	width:50vw;
+}
+.left-side-elements{
+	float: left;
+	margin-left: 25px;
+
+}
+.logo{
+	width: 80px;
+	height: 55px;
+	padding-left: 20px;
+}
+.inside_lside{
+	float: left;
+
+}
+.inside_lside1{
+	float: left;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 20px;
+
+}
+.borders{
+
+	border-radius: 15px;	
+}
+
+
+/*----------------------right-side--------------*/
+.rightside{
+	padding-left: 70vw;
+}
+.search{
+	float: left;
+	width: 70vm;
+	border: none;
+
+}
+.searchbar{
+	border: none;
+	border-radius: 15px;
+	height: 30px;
+}
+
+.searchbar:focus .borders{
+	border: none;
+}
+
+
+option{
+	border: 2px solid black;
+	border-radius: 15px
+	width:100px;
+	height: 100px;
+}
+
+.login{
+	padding-top: 15px;
+	float: left;
+}
+.login1{
+	float: left;
+	padding-left: 30px;
+}
+.btn{
+	margin-left: 5px;
+    padding: 10px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color:  rgba(0, 100,0, 1);
+    border-radius: 18px;
+    color: white;
+    border-color: none;
+
+}
+
+.btn:hover{
+	background-color: rgba(0,100,0,0.7);
+	color:white ;
+
+}	
+
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	border-bottom: 1px solid black;
+}
+
+/*-------------------------------sub header--------------------------*/
+
+.sub-header{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.header2{
+	width:100vm;
+	height: 60px;
+	background-color: white;
+}
+/*--------------end of header stuff---------------*/
+
+/*-------------------------------how-work-should-work-left-side-section--------------------------*/
+.para-side{
+
+	padding-top: 30px;
+	float:left;
+	padding-left: 180px
+}
+.para-side span{
+	font-family: Arial Nova Cond;
+	font-size: 80px;
+	color: rgba(0,150,0,1);
+	text-align: left;
+	line-height: 1;
+}
+p{
+	font-size: 25px;
+	color: gray;
+}
+.mslogo{
+	
+	width:150px;
+	height:70px;
+}
+
+.bnblogo{
+	padding-left: 30px;
+	width:100px;
+	height:70px;
+}
+.blssellogo{
+	
+	width:150px;
+	height:70px;
+}
+/*-------------------------------how-work-should-work-right-side-section--------------------------*/
+.img-side{
+	padding-left: 70px;
+	width:500px;
+	height: 500px;
+}
+
+/*-------------------------------category section--------------------------*/
+.category{
+	margin-top: 45px;
+	margin-left: 170px;
+	margin-bottom: 200px;
+}
+.box{
+	margin-top: 20px;
+	margin-left: 30px;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	width:250px;
+	height: 130px;
+	background-color: lightgray;
+	border-radius: 18px;
+}
+.box:hover{
+	background-color: gray;
+}
+.category a{
+
+	color: darkgreen;
+	text-decoration: none;
+}
+/*-------------------------------enterprise section--------------------------*/
+
+.Enterprise-Suite-left-main{
+
+	background-color: #13544e;
+	margin-left: 150px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	float: left;
+	margin-top: 100px;
+	padding-right: 100px;
+
+}
+.Enterprise-leftside{
+	font-family: Arial Nova Cond;
+	color: white;
+	margin-left: 25px;
+	font-size: 20px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+
+}
+
+.Enterprise-Suite span{
+	line-height:1.5;
+	font-size: 20px;
+	font-family: Arial;
+}
+.Enterprise-leftside h1 span{
+	line-height:1;
+	color:#91e6b3;
+	font-size: 40px;
+	font-family: Arial Nova Cond;
+
+}
+.learn-more{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: white;
+	color: darkcyan;
+	border-radius: 20px;
+}
+/*-------------------------------enterprise section img side(right side)--------------------------*/
+.img-enterprise{
+
+	height: 513px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-top: 100px;	
+}
+
+/*-------------------------------Find talent-your way-section--------------------------*/
+.For-clients{
+	background: url(img/black.jpg);
+	margin-top: 40px;
+	width: 1140px;
+	height:513px;
+	margin-left: 150px;
+	border-radius: 20px;
+}
+.For-clients-text-setup{
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	color: white;
+	font-size: 20px;
+}
+.box1{
+	margin-top: 20px;
+	margin-left: 50px;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	width:250px;
+	height: 130px;
+	background-color: darkgreen;
+	border-radius: 18px;
+}
+.box1:hover{
+	background-color: white;
+	color: darkgreen;
+}
+/*-------------------Why businesses turn to Upwork---------------------*/
+.main{
+
+	margin-top: 0px;
+	height:600px;
+	
+}
+.Why-business{
+	
+	background-color:lightgray ;
+	width: 700px;
+	height: 600px;
+	float: left;
+	margin-right: 100px;
+	border-radius: 20px;
+	margin-left: 150px;
+}
+
+.inside{
+	
+	padding-left: 30px;
+	padding-top: 40px;
+	font-size: 20px;
+	float: left;
+}
+.inside h1{
+	font-size: 50px;
+	font-family: Arial Nova Cond;
+}
+/*---------------imgside--------------------*/
+
+.left-y-bus{
+	width: 400px;
+	background-color: #2E8007 ;
+	height: 600px;
+	color: white;
+	margin-left: 890px;
+	border-radius: 20px;
+	text-align: left;
+}
+.left-y-bus h3{
+	padding-top: 200px;
+	font-family: Arial Nova Cond;
+	font-size: 40px;
+}
+/*----------------------------------Find Great Work-------------------------*/
+.For-talent{
+	height: 600px;
+	padding-top: 50px;
+	
+
+}
+.Find-great-work{
+	float: left	;
+	width:600px;
+}
+.img-for-talent{
+	height: 600px;
+	margin-left: 150px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+
+}
+.right-side-of-img{
+	background-color: #125FDD;
+	margin-left: 675px;	
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	width: 600px;
+	height: 570px;
+	color: white;
+	padding-left: 40px;
+	padding-top:30px;
+	font-family:Arial Nova Cond ;
+}
+
+.right-side-of-img h1{
+	font-size: 50px;
+}
+.p1{
+	font-size: 20px;
+	padding-top: 10px;
+	float: left;
+	padding-left:30px;
+}
+.trusted-by-leading{
+	margin-left: 160px;
+	margin-top: 100px;
+}
+
+.trusted-by-leading h1{
+	font-size: 40px;
+	font-family:Arial Nova Cond ;
+
+}
+.t-b-l{
+	padding-left: 30px;
+	margin-left: 80px;
+	border-radius: 20px;
+	float: left;
+}
+.box2{
+	height: 500px;
+	margin-left: 50px;
+	padding-left: 70px;
+	border-radius: 20px;
+	width: 500px;
+	background-color: darkcyan;
+	float: left;
+	padding-top: 30px;
+	
+}
+.para-tbl{
+	padding-top:25px;
+	font-size:25px;
+	line-height: 1.3;
+
+
+}
+.results{
+	padding-top: 120px;
+	padding-right: 30px;
+}
+.Emmy-Winnings{
+	float: left;
+	width: 200px;
+}
+.Millions{
+	float: left;
+	width: 200px;
+}
+.box3{
+	height: 500px;
+	margin-left: 50px;
+	padding-left: 70px;
+	border-radius: 20px;
+	width: 500px;
+	background-color: darkorange;
+	float: left;
+	padding-top: 30px;
+	
+}
+/* --------------------ukrain-support-section ----------------------------- */
+
+.Ukraine-support{
+    padding: 14px 0 24px 24px;
+    margin-block: 90px;
+    background-color: #f2f7f2;
+    border-radius: 10px;
+}
+
+
+.flex-Ukraine{
+    display: flex ;
+    justify-content: space-between;
+}
+
+.main-supportheading{
+    width: 800px;
+    
+}
+
+
+.big-heaidng-ukrain h3{
+    font-family: mirza ,sans-serif;
+    font-size: 50px;
+    color: #001e00;
+    padding: 0 0 4px 0;
+}
+
+.grey-paragraph p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: poppins , sans-serif;
+    color: #5e6d55;
+    padding: 0 0 28px 0;
+
+}
+
+.oultine-green-btn{
+     padding:5px 15px 5px 20px ;
+     background-color: rgb(255, 255, 255);
+     border: 2px solid green;
+     border-radius: 25px;
+     color: green;
+     border-color: none;
+     font-family: poppins, sans-serif;
+     font-weight: 400;
+     transition: .3sec;
+     width: 135px;
+
+    
+}
+
+.love-image{
+    width: 180px;
+}
+/* ------------------- Skill-list-section ----------------------------------------------- */
+
+.main-skill-support{
+display: flex;
+justify-content: space-evenly;
+gap: 28px;
+align-items: flex-start;
+padding: 5px 0 80px 0;
+
+}
+
+.top1-4{
+    font-family: poppins , sans-serif;
+    font-size: 20px;
+    color: #9aaa97;
+    transition: .3sec;
+
+}
+
+.top1-4 li:hover{
+    color: #14a800;
+
+}
+
+.tm{
+    font-size: 14px;
+}
+
+
+.top2-16{
+font-family: poppins, sans-serif;
+    font-size: 18px;
+   ;
+    color: #5e6d55;
+    transition: .3sec;
+}
+.top2-16 li:hover{
+    color: #14a800;
+}
+
+.top2-16 li{
+    padding: 5px 0 5px 0;
+}
+
+
+.top3-16 {
+    font-family: poppins, sans-serif;
+    font-size: 18px;
+    color: #5e6d55;
+    transition: .3sec;
+    
+}
+
+.top3-16 li:hover {
+    color: #14a800;
+}
+
+.top3-16 li {
+    padding: 5px 0 5px 0;
+}
+
+/* --------------------------------------------------------------footer section------------------------------------------------ */
+
+.logo-footer{
+    padding:0  20px 0 20px ;
+}
+
+.green-footer{
+    margin: 10px  0 0 0 ;
+    padding: 40px 0 0 0;
+    background-color: #001e00;
+    color: #ffffff;
+    height: 590px;
+    border-radius: 10px ;
+}
+
+.main-green-heading{
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    font-family: poppins , sans-serif; 
+    /* border: 1px solid  blue; */
+    height: 350px;
+    padding-left: 20px;
+    margin-top: 45px;
+}
+
+
+
+.footer-maneger li{
+    padding: 10px 0 4px 0 ;
+    color: #ffffff;
+}
+
+.footer-all{
+    width: 250px;
+    /* border:1px solid rgb(0, 152, 63); */
+}
+/* ---------------------log0 footer-------------------------------------------------------------- */
+
+.socialmedia-logo{
+display: flex;
+justify-content: space-between;
+padding: 5px 0 0 0 ;
+}
+
+.social{
+    display: flex ;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.follow-us{
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0  0 0;
+}
+
+.fityw img{
+    padding: 6px 20px 0 0 ;
+    height: 30px;
+    width: 50px;
+    /* display: inline;
+    gap: 60px; */
+
+}
+
+.Ip-An{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 8px 10px 0 0 ;
+}
+
+.ip1{
+padding: 4px 10px 0 0 ;
+height: 25px;
+width: 25px;
+
+}
+
+.ip1 {
+    padding: 4px 10px 0 0;
+    height: 25px;
+    width: 25px;
+
+}
+
+
+.mobileapp-text{
+    font-family: poppins, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.date-logo{
+    margin-top: 20px;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 0 20px 10px 20px;
+
+}
+
+.date-logo-flex{
+    display:flex;
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    gap: 45px;
+    padding: 15px 0 20px 0;
+    
+    
+}
+footer{
+	background-color:#001e00;
+	height: 350px	;
+}
